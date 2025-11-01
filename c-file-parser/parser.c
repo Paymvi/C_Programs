@@ -7,25 +7,14 @@
 
 #define MAX_LINE 1024
 
-/*  - This is a simple C program that reads a CSV file containing test results
-    and counts the number of passed and failed tests.
-    - The comments are my own notes to help me understand C.
-*/ 
-
-/*  Other C notes:
+/*  The comments are my own notes to help me understand C
+    More Notes:
     - C uses the "str" prefix a lot because it stands for strings
     - C is close to the hardware
     - C code can run on almost any operating system
     - You manage memory directly in C
 */
 
-/*  Build and Run
-    - To compile: gcc -o parser parser.c
-    - To run: ./parser
-
-    - On Windows with TDM-GCC:
-    tdm64-gcc-10.3.0-2.exe
-*/
 
 int main(){
 
