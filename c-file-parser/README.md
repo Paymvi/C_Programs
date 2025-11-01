@@ -9,11 +9,13 @@ A simple **CSV file parser written in C** that reads test results from a `.csv` 
 ---
 
 ## 📂 Project Structure
+```
 c-file-parser/
 ├── parser.c # Main source code
 ├── results.csv # Sample test data
 ├── parser.exe # Compiled program (optional - not tracked in Git)
 └── README.md # Project documentation
+```
 
 ---
 
@@ -40,6 +42,7 @@ Test5,FAIL
 
 ### **Windows (using GCC)**
 Make sure GCC is installed (for example, through [TDM-GCC](https://jmeubank.github.io/tdm-gcc/)).
+(I used tdm64-gcc-10.3.0-2.exe)
 
 Open your terminal in the project folder and run:
 gcc parser.c -o parser
@@ -48,4 +51,3 @@ Then execute:
 ./parser
 
 
-(I used tdm64-gcc-10.3.0-2.exe to run gcc on windows)
