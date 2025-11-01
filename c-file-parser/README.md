@@ -24,10 +24,12 @@ c-file-parser/
 2. Each line should follow this format:
 3. The parser reads each line, counts passes/fails, and calculates a pass rate.  
 4. The output looks like this:
+```
 Total tests: 10
 Passed: 7
 Failed: 3
 Pass Rate: 70.00%
+```
 
 ## 🧠 Example CSV File (`results.csv`)
 Test1,PASS
@@ -45,9 +47,12 @@ Make sure GCC is installed (for example, through [TDM-GCC](https://jmeubank.gith
 (I used tdm64-gcc-10.3.0-2.exe)
 
 Open your terminal in the project folder and run:
+```
 gcc parser.c -o parser
+```
 
 Then execute:
+```
 ./parser
-
+```
 
