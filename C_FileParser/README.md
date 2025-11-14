@@ -32,11 +32,13 @@ Pass Rate: 70.00%
 ```
 
 ## 🧠 Example CSV File (`results.csv`)
+```
 Test1,PASS
 Test2,FAIL
 Test3,PASS
 Test4,PASS
 Test5,FAIL
+```
 
 ---
 
